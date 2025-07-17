@@ -10,25 +10,6 @@ Bienvenue sur le dépôt `.github` de **AquaPay**, l'organisation dédiée à r�
 - Offrir un accès rapide, juste et traçable à l’eau pour les populations urbaines et rurales.
 - Intégrer l’innovation digitale (IoT, mobile, web, data) au service de l’impact social.
 
-## 🧠 Notre Équipe
-
-L’organisation réunit une équipe multidisciplinaire composée de :
-
-- 💼 Un businessman
-- 🎯 Un chef de projet
-- 💻 Un développeur web
-- 📱 Un développeur mobile
-- 🛠️ Un développeur IoT
-- 🎨 Un designer UI/UX
-- 🧱 Un designer 3D
-
-## 📁 À propos de ce dépôt
-
-Ce dépôt spécial `.github` contient :
-
-- Des fichiers de configuration globaux pour l’ensemble des dépôts de l’organisation.
-- Les modèles d’issues, de pull requests, de sécurité et de contribution.
-- Le code de conduite de la communauté AquaPay.
 
 ## 🤝 Rejoignez l'aventure
 

@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Consommateur d&#39;eau" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="134.5" y="128" width="345.5" height="962" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
+          <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="5" target="7" edge="1">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="115" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Choisir mode &#xa;de paiement" style="" parent="2" vertex="1">
+          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114.99999999999989" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="S&#39;authentifier " style="" parent="2" vertex="1">
+          <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="2" source="_DLYJAH6SZOFebkaI9tu-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114.99999999999989" y="270" as="sourcePoint" />
+            <mxPoint x="115.5" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="2" source="_DLYJAH6SZOFebkaI9tu-48" target="_DLYJAH6SZOFebkaI9tu-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.5" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-48" value="Application Mobile ?" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="30" y="222" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-54" value="Oui" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2">
+          <mxGeometry x="70" y="282" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-52" value="Paiement par RFID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="2">
+          <mxGeometry x="185.5" y="212" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-55" value="Entre le litre" style="" vertex="1" parent="2">
+          <mxGeometry x="60" y="402" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-56" value="Choisir l&#39;opérateur" style="" vertex="1" parent="2">
+          <mxGeometry x="60" y="472" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2" source="_DLYJAH6SZOFebkaI9tu-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.0652173913045" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-59" value="Scan RFID" style="" vertex="1" parent="2">
+          <mxGeometry x="210" y="325" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-61" value="Entre le litre" style="" vertex="1" parent="2">
+          <mxGeometry x="210" y="402" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-67" value="Access Code" style="" vertex="1" parent="2">
+          <mxGeometry x="75.5" y="602" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-71" value="Choisir l&#39;opérateur" style="" vertex="1" parent="2">
+          <mxGeometry x="215.5" y="732" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Gérant Forage" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="480" y="128" width="280" height="962" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Propriétaire Forage" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="760" y="128" width="280" height="962" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="1" source="10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-47" value="Opérateur Mobile" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="1040" y="128" width="280" height="962" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DLYJAH6SZOFebkaI9tu-47" source="_DLYJAH6SZOFebkaI9tu-63" target="_DLYJAH6SZOFebkaI9tu-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-63" value="Traiter le Paiement" style="" vertex="1" parent="_DLYJAH6SZOFebkaI9tu-47">
+          <mxGeometry x="110" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_DLYJAH6SZOFebkaI9tu-47" source="_DLYJAH6SZOFebkaI9tu-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-720" y="631.6666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_DLYJAH6SZOFebkaI9tu-47" source="_DLYJAH6SZOFebkaI9tu-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-620" y="732" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="692" />
+              <mxPoint x="-640" y="692" />
+              <mxPoint x="-640" y="732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-64" value="Réussite ?" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="_DLYJAH6SZOFebkaI9tu-47">
+          <mxGeometry x="80" y="612" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-68" value="Oui" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_DLYJAH6SZOFebkaI9tu-47">
+          <mxGeometry x="10" y="602" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-57" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="579" as="sourcePoint" />
+            <mxPoint x="250" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_DLYJAH6SZOFebkaI9tu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_DLYJAH6SZOFebkaI9tu-56" target="_DLYJAH6SZOFebkaI9tu-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
